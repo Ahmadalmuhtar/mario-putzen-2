@@ -1,0 +1,33 @@
+.welcome-banner {
+  background-color: #f8f8f8;
+  padding: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-content p {
+  font-size: 0.9em;
+}
+
+.right-content {
+  display: flex;
+}
+
+.social-icon {
+  margin-right: 10px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.social-icon.tiktok {
+  color: #69c9d0;
+}
+
+.social-icon.instagram {
+  color: #8a3ab9;
+}
+
+.social-icon.facebook {
+  color: #3b5998;
+}

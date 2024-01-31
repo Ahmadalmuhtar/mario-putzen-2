@@ -1,5 +1,4 @@
 import React from "react";
-import "./QualityService.css";
 import PhotoSlider from "../../ui/photo-slider/PhotoSlider";
 
 const QualityService = () => {

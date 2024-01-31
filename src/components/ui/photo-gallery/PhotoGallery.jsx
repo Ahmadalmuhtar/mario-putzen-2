@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./PhotoGallery.css";
 import BildImage from "../../../assets/images/Bild.jpg";
 import BildImage2 from "../../../assets/images/Bild2.jpg";
 

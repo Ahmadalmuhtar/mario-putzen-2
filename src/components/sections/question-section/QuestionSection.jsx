@@ -9,6 +9,7 @@ const QuestionsSection = () => {
         <div className="content">
           <h1>Haben Sie Fragen?</h1>
           <p>Sie erreichen uns per E-Mail oder unter einer unserer Nummern</p>
+          <p>Marioputzen25@gmail.com</p>
         </div>
       </div>
     </section>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./PhotoSlider.css";
 import BildImage from "../../../assets/images/cleaning-lady.svg";
-import BildImage2 from "../../../assets/images/cleaner-white.svg";
+import BildImage2 from "../../../assets/images/cleaner.svg";
 import BildImage3 from "../../../assets/images/clean.svg";
 
 const PhotoSlider = () => {

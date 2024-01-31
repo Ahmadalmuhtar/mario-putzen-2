@@ -6,6 +6,7 @@ import NavigationMenu from "./components/navigation/navigation-menu/NavigationMe
 import PhotoGallery from "./components/ui/photo-gallery/PhotoGallery";
 import AboutUs from "./components/sections/about/AboutUs";
 import FeatureSection from "./components/sections/features/FeatureSection";
+import QualityService from "./components/sections/quality-server/QualityService";
 
 const App = () => {
   return (
@@ -16,7 +17,7 @@ const App = () => {
       <PhotoGallery />
       <AboutUs />
       <FeatureSection />
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <QualityService />
     </>
   );
 };

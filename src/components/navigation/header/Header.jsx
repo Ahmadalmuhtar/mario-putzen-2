@@ -1,7 +1,7 @@
 // Header.jsx
 import React from "react";
 import "./Header.css";
-import BildImage from "../../../assets/images/Logo.png";
+import BildImage from "../../../assets/images/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPhone,

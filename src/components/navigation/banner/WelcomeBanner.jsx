@@ -14,9 +14,15 @@ const WelcomeBanner = () => {
         <p>Willkommen bei MARIO PUTZEN Cleaning Services Company</p>
       </div>
       <div className="right-content">
-        <FontAwesomeIcon icon={faTiktok} className="social-icon tiktok" />
-        <FontAwesomeIcon icon={faInstagram} className="social-icon instagram" />
-        <FontAwesomeIcon icon={faFacebook} className="social-icon facebook" />
+        <div className="social-icon-container">
+          <FontAwesomeIcon icon={faTiktok} className="social-icon tiktok" />
+        </div>
+        <div className="social-icon-container">
+          <FontAwesomeIcon icon={faInstagram} className="social-icon instagram" />
+        </div>
+        <div className="social-icon-container">
+          <FontAwesomeIcon icon={faFacebook} className="social-icon facebook" />
+        </div>
       </div>
     </div>
   );

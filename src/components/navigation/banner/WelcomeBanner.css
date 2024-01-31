@@ -12,10 +12,11 @@
 
 .right-content {
   display: flex;
+  align-items: center;
 }
 
 .social-icon {
-  margin-right: 10px;
+  margin-right: 5px; /* Adjust this value to increase/decrease space */
   font-size: 1em;
   cursor: pointer;
 }

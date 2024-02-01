@@ -1,11 +1,5 @@
 import React from "react";
 import BildImage from "../../../assets/images/Logo.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faPhone,
-  faEnvelope,
-  faMapMarkerAlt,
-} from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   return (
@@ -53,17 +47,17 @@ const Header = () => {
                     className="font-semibold text-blue-700"
                     href="mailto:Marioputzen25@gmail.com"
                   >
-                    Marioputzen25@gmail.com
+                    Marioputzen30@gmail.com
                   </a>
                 </dd>
               </div>
               <div className="mt-1">
                 <dt className="sr-only">Phone number</dt>
-                <dd>+49 1520 2080771</dd>
+                <dd>+49 1726 228598</dd>
               </div>
               <div className="mt-1">
                 <dt className="sr-only">Phone number</dt>
-                <dd>Labharswegstraße 9, 78462 Konstanz</dd>
+                <dd>Frohnhauserstraße 308, 45144 Essen</dd>
               </div>
             </dl>
           </div>

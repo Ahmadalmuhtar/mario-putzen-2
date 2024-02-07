@@ -1,19 +1,22 @@
 import React from "react";
 
 const AboutUs = () => {
-  return (
-    <div className="about-us-section">
-      <div className="left-content">
-        <h2>Über Uns</h2>
-      </div>
-      <div className="right-content">
-        <p>
-          Mit einem Team erfahrener Reinigungskräfte und modernster Ausrüstung
+  return (    
+
+<div className="bg-white px-6 pb-10">
+      <div className="mx-auto max-w-5xl text-center grid grid-cols-6 gap-4">
+        <div className="col-span-2 flex items-center">
+        <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Über Uns</h2>
+        </div>
+        <div className="col-span-4 text-justify">
+        <p className="mt-6 text-lg leading-8 text-gray-600">
+        Mit einem Team erfahrener Reinigungskräfte und modernster Ausrüstung
           kümmern wir uns um Ihre Außen- und Innenflächen. Egal ob Büro-,
           Unterhalts- oder Glasreinigung: Profitieren Sie von unserer
           kostenlosen Erstberatung und holen Sie sich noch heute ein
           unverbindliches Angebot.
         </p>
+        </div>
       </div>
     </div>
   );

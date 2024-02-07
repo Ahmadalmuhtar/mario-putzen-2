@@ -1,58 +1,20 @@
-import React, { useState } from "react";
-import BildImage from "../../../assets/images/Bild.jpg";
-import BildImage2 from "../../../assets/images/Bild2.jpg";
+import { Carousel } from 'flowbite-react';
+import img1 from '../../../assets/images/Bild2.jpg'
+import img2 from '../../../assets/images/Background.jpg'
+import img3 from '../../../assets/images/clean-1.svg'
+import img4 from '../../../assets/images/bg_99.jpg'
+import img5 from '../../../assets/images/clean.svg'
 
-const PhotoGallery = () => {
-  const [currentPhoto, setCurrentPhoto] = useState(0);
-
-  const photos = [
-    { src: BildImage, text: "Description for Photo 1" },
-    { src: BildImage2, text: "Description for Photo 2" },
-  ];
-
-  const handleArrowClick = (direction) => {
-    if (direction === "left") {
-      setCurrentPhoto((prev) => (prev === 0 ? photos.length - 1 : prev - 1));
-    } else {
-      setCurrentPhoto((prev) => (prev === photos.length - 1 ? 0 : prev + 1));
-    }
-  };
-
+export default function PhotoGallery() {
   return (
-    <div className="photo-gallery">
-      <button
-        className="navigation-arrow left"
-        onClick={() => handleArrowClick("left")}
-      >
-        {"<"}
-      </button>
-      <div
-        className="photo-item"
-        onMouseOver={() => setCurrentPhoto(currentPhoto)}
-      >
-        <img
-          src={photos[currentPhoto].src}
-          alt={photos[currentPhoto].text}
-          className="photo-img"
-        />
-        <div className="photo-text">
-          <p>{photos[currentPhoto].text}</p>
-        </div>
-      </div>
-      <button
-        className="navigation-arrow right"
-        onClick={() => handleArrowClick("right")}
-      >
-        {">"}
-      </button>
-      <button
-        className="navigation-arrow left"
-        onClick={() => handleArrowClick("right")}
-      >
-        {"<"}
-      </button>
+    <div className="h-56 sm:h-64 xl:h-96 2xl:h-96 max-w-7xl mx-auto">
+      <Carousel>
+        <img className='object-cover' src={img1} alt="..." />
+        <img className='object-cover' src={img2} alt="..." />
+        <img className='object-cover' src={img3} alt="..." />
+        <img className='object-cover' src={img4} alt="..." />
+        <img className='object-cover' src={img5} alt="..." />
+      </Carousel>
     </div>
   );
-};
-
-export default PhotoGallery;
+}

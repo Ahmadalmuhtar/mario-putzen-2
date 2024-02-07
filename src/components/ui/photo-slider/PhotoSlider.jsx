@@ -21,7 +21,7 @@ const PhotoSlider = () => {
   };
 
   return (
-    <div className="photo-slider">
+    <div className="photo-slider pt-8">
       <button
         className="navigation-arrow left"
         onClick={() => handleArrowClick("left")}
@@ -35,7 +35,9 @@ const PhotoSlider = () => {
             alt={photos[currentPhoto].description}
             className="photo-img"
           />
-          <div className="photo-description">{photos[currentPhoto].description}</div>
+          <div className="photo-description">
+            {photos[currentPhoto].description}
+          </div>
         </div>
       </div>
       <button

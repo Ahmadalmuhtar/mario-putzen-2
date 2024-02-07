@@ -62,36 +62,6 @@ const Header = () => {
             </dl>
           </div>
         </div>
-        {/* <div className="p-6 bg-gray-200 rounded-lg text-sm max-w-md">
-          <div className="grid grid-cols-10">
-            <FontAwesomeIcon icon={faPhone} className="col" />
-            <p className="contact-detail">+49 1520 2080771</p>
-
-            <FontAwesomeIcon icon={faEnvelope} className="contact-icon" />
-            <p className="contact-detail">Marioputzen25@gmail.com</p>
-
-            <FontAwesomeIcon icon={faMapMarkerAlt} className="contact-icon" />
-            <p className="contact-detail">Labharswegstraße 9, 78462 Konstanz</p>
-          </div>
-        </div>
-        <div className="">
-          <div className="contact-set">
-            <div className="contact-item">
-              <FontAwesomeIcon icon={faPhone} className="contact-icon" />
-              <span className="contact-detail">+49 1520 2080771</span>
-            </div>
-            <div className="contact-item">
-              <FontAwesomeIcon icon={faEnvelope} className="contact-icon" />
-              <span className="contact-detail">Marioputzen25@gmail.com</span>
-            </div>
-            <div className="contact-item">
-              <FontAwesomeIcon icon={faMapMarkerAlt} className="contact-icon" />
-              <span className="contact-detail">
-                Labharswegstraße 9, 78462 Konstanz
-              </span>
-            </div>
-          </div>
-        </div> */}
       </div>
     </div>
   );

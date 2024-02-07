@@ -8,7 +8,7 @@ import {
 
 const WelcomeBanner = () => {
   return (
-    <div className="border-b border-gray-100 text-gray-800 py-2">
+    <div className="border-b border-gray-100 text-gray-800 py-2 bg-slate-100">
       <div className="max-w-5xl mx-auto items-center flex justify-between">
         <div className="text-sm font-semibold ">
           <p>Willkommen bei MARIO PUTZEN Cleaning Services Company</p>

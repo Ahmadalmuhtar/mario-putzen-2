@@ -4,7 +4,7 @@ import Layout from "../../layout";
 const QuestionSection = () => {
   return (
     <Layout>
-      <section className="bg-gray-100 py-12 pt-8">
+      <section className="bg-gray-100 py-12 pt-8 text-center">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-gray-800 mb-6">
             Do you have any questions?

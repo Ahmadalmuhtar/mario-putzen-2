@@ -15,51 +15,73 @@ const features = [
     name: "Expertin",
     description:
       "Unser modernes Unternehmen hat sich auf die Vielfältigkeit der Reinigung spezialisiert",
-    icon: TrashIcon,
+    image: img,
   },
   {
     name: "Dienstleistungen",
     description:
       "Mit einem Team erfahrener Reinigungskräfte und modernster Ausrüstung kümmern wir uns um Ihre Außen- und Innenflächen",
-    icon: LockClosedIcon,
+    image: img1,
   },
   {
     name: "Beratung",
     description: "Eine umfangreiche Beratung erhalten Sie von uns kostenfrei",
-    icon: ArrowPathIcon,
+    image: img2,
   },
   {
     name: "kostengünstig",
     description:
       "Wir bieten leistungsstarke Dienstleistungen zu wettbewerbsfähigen Preisen",
-    icon: FingerPrintIcon,
+    image: img3,
   },
 ];
 
-export default function Example() {
+export default function FeatureSection() {
+  const borderColors = [
+    "hover:ring-blue-700",
+    "hover:ring-purple-700",
+    "hover:ring-teal-700",
+    "hover:ring-emeraland-700",
+  ];
+
   return (
     <Layout>
       <div className="bg-white pb-10">
         <div className="mx-auto px-6 lg:px-8">
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-7xl">
-            <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
-              {features.map((feature) => (
+            <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 text-left lg:gap-y-16">
+              {features.map((feature, index) => (
+                // <div key={feature.name} className="relative pl-16">
+                //   <dt className="text-base font-semibold leading-7 text-gray-900">
+                //     <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg">
+                //       <img src={feature.image} />
+                //     </div>
+                //     {feature.name}
+                //   </dt>
+                //   <dd className="mt-2 text-base leading-7 text-gray-600">
+                //     {feature.description}
+                //   </dd>
+                // </div>
                 <div
-                  key={feature.name}
-                  className="relative pl-16 border-r-2 border-blue-700 border-opacity-50"
+                  className={`ring-2 rounded-2xl p-10 transition-all duration-300 ease-in-out ring-blue-500`}
                 >
-                  <dt className="text-base font-semibold leading-7 text-gray-900">
-                    <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-700">
-                      <feature.icon
-                        className="h-7 w-6 text-white"
-                        aria-hidden="true"
-                      />
+                  <div className="grid grid-cols-2">
+                    <div className="flex items-center">
+                      <div>
+                        <h3 className="text-base font-semibold leading-7 text-gray-900">
+                          {feature.name}
+                        </h3>
+                        <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
+                          <div>
+                            <p>{feature.description}</p>
+                          </div>
+                        </dl>
+                      </div>
                     </div>
-                    {feature.name}
-                  </dt>
-                  <dd className="mt-2 text-base leading-7 text-gray-600">
-                    {feature.description}
-                  </dd>
+                    <div className="flex justify-end">
+                      <img className="h-48 w-48" src={feature.image} />
+                    </div>
+                  </div>
                 </div>
               ))}
             </dl>

@@ -19,7 +19,7 @@ const Header = () => {
                 <dt className="sr-only">Email</dt>
                 <dd>
                   <a
-                    className="font-semibold text-blue-700"
+                    className="font-semibold text-blue-700 hover:text-red-700"
                     href="mailto:collaborate@example.com"
                   >
                     Marioputzen25@gmail.com
@@ -45,7 +45,7 @@ const Header = () => {
                 <dt className="sr-only">Email</dt>
                 <dd>
                   <a
-                    className="font-semibold text-blue-700"
+                    className="font-semibold text-blue-700 hover:text-red-700"
                     href="mailto:Marioputzen25@gmail.com"
                   >
                     Marioputzen30@gmail.com

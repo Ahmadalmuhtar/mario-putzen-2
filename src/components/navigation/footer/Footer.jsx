@@ -4,7 +4,7 @@ import img from "../../../assets/images/Logo.png";
 export default function Footer() {
   return (
     <>
-      <footer className="bg-blue-300 gap-12 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left pt-6">
+      <footer className="bg-blue-500 gap-12 text-center text-white dark:bg-neutral-600 dark:text-neutral-200 lg:text-left pt-6">
         <div className="mx-6 py-10 text-center md:text-left">
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 justify-items-center">
             <div className="">
@@ -19,7 +19,9 @@ export default function Footer() {
                     className="h-24 pr-4"
                     alt="Mario Putzen Logo"
                   />
-                  <span>Mario Putzen</span>
+                  <span className="hover:text-gray-200 hover:underline">
+                    Mario Putzen
+                  </span>
                 </a>
               </h6>
               <p>
@@ -32,38 +34,45 @@ export default function Footer() {
               <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
                 Kontakt Konstanz Filiale
               </h6>
-              <p className="mb-4 flex items-center justify-center md:justify-start">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  className="mr-3 h-5 w-5"
-                >
-                  <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
-                  <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
-                </svg>
+              <p className="mb-4 flex items-center justify-center md:justify-start hover:text-gray-200 hover:underline">
                 <a
+                  className="flex items-center"
                   href="https://maps.app.goo.gl/hNbUnfKky8hWM4Av7"
                   target="_blank"
                 >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="mr-3 h-5 w-5"
+                  >
+                    <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+                    <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+                  </svg>
                   Labharswegstraße 9, 78462 Konstanz
                 </a>
               </p>
-              <p className="mb-4 flex items-center justify-center md:justify-start">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  className="mr-3 h-5 w-5"
+              <p className="mb-4 flex items-center justify-center md:justify-start hover:text-gray-200 hover:underline">
+                <a
+                  className="flex items-center"
+                  href="mailto:marioputzen25@gmail.com?subject=Anfrage%20zur%20Dienstleistung&body=Guten%20Tag,%0A%0AIch%20interessiere%20mich%20für%20Ihre%20Dienstleistungen%20und%20möchte%20mehr%20darüber%20erfahren.%0A%0AMit%20freundlichen%20Grüßen,%0AVorname%20Nachname"
                 >
-                  <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
-                  <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
-                </svg>
-                <a href="mailto:marioputzen25@gmail.com?subject=Anfrage%20zur%20Dienstleistung&body=Guten%20Tag,%0A%0AIch%20interessiere%20mich%20für%20Ihre%20Dienstleistungen%20und%20möchte%20mehr%20darüber%20erfahren.%0A%0AMit%20freundlichen%20Grüßen,%0AVorname%20Nachname">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="mr-3 h-5 w-5"
+                  >
+                    <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
+                    <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
+                  </svg>
                   marioputzen25@gmail.com
                 </a>
               </p>
-              <p className="mb-4 flex items-center justify-center md:justify-start">
+              <a
+                href="tel:+4915202080771"
+                className="mb-4 flex items-center justify-center md:justify-start hover:text-gray-200 hover:underline"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -76,14 +85,18 @@ export default function Footer() {
                     clipRule="evenodd"
                   />
                 </svg>
-                <a href="tel:+4915202080771">+49 1520 2080771</a>
-              </p>
+                <span>+49 1520 2080771</span>
+              </a>
             </div>
             <div>
               <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
                 Kontakt Essen Filiale
               </h6>
-              <p className="mb-4 flex items-center justify-center md:justify-start">
+              <a
+                href="https://maps.app.goo.gl/Bvqzggn5wpECM8c87"
+                target="_blank"
+                className="mb-4 flex items-center justify-center md:justify-start hover:text-gray-200 hover:underline"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -93,14 +106,12 @@ export default function Footer() {
                   <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
                   <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
                 </svg>
-                <a
-                  href="https://maps.app.goo.gl/Bvqzggn5wpECM8c87"
-                  target="_blank"
-                >
-                  Frohnhauserstraße 308, 45144 Essen
-                </a>
-              </p>
-              <p className="mb-4 flex items-center justify-center md:justify-start">
+                <span>Frohnhauserstraße 308, 45144 Essen</span>
+              </a>
+              <a
+                href="mailto:marioputzen30@gmail.com?subject=Anfrage%20zur%20Dienstleistung&body=Guten%20Tag,%0A%0AIch%20interessiere%20mich%20für%20Ihre%20Dienstleistungen%20und%20möchte%20mehr%20darüber%20erfahren.%0A%0AMit%20freundlichen%20Grüßen,%0AVorname%20Nachname"
+                className="mb-4 flex items-center justify-center md:justify-start hover:text-gray-200 hover:underline"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -110,11 +121,13 @@ export default function Footer() {
                   <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
                   <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
                 </svg>
-                <a href="mailto:marioputzen30@gmail.com?subject=Anfrage%20zur%20Dienstleistung&body=Guten%20Tag,%0A%0AIch%20interessiere%20mich%20für%20Ihre%20Dienstleistungen%20und%20möchte%20mehr%20darüber%20erfahren.%0A%0AMit%20freundlichen%20Grüßen,%0AVorname%20Nachname">
-                  marioputzen30@gmail.com
-                </a>
-              </p>
-              <p className="mb-4 flex items-center justify-center md:justify-start">
+                <span>marioputzen30@gmail.com</span>
+              </a>
+
+              <a
+                href="tel:+491726228598"
+                className="mb-4 flex items-center justify-center md:justify-start hover:text-gray-200 hover:underline"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -127,20 +140,15 @@ export default function Footer() {
                     clipRule="evenodd"
                   />
                 </svg>
-                <a href="tel:+491726228598">+49 1726 228598</a>
-              </p>
+                <span>+49 1726 228598</span>
+              </a>
             </div>
           </div>
         </div>
         <div className="bg-neutral-200 p-6 text-center dark:bg-neutral-700 h-6">
-          <span>© 2024 Copyright:</span>
-          <a
-            className="font-semibold text-neutral-600 dark:text-neutral-400"
-            href="https://marioputzen.com/"
-            target="_blank"
-          >
-            Mario Putzen
-          </a>
+          <span className="text-neutral-600">
+            © 2024 Copyright: Mario Putzen
+          </span>
         </div>
       </footer>
     </>

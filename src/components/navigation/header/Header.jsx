@@ -9,7 +9,7 @@ const Header = () => {
           <img src={BildImage} alt="Mario Putzen Image" />
         </div>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">
-          <div className="rounded-2xl bg-gray-50 p-10">
+          <div className="rounded-2xl bg-gray-100 p-10">
             <h3 className="text-base font-semibold leading-7 text-gray-900">
               Konstanz
             </h3>
@@ -35,7 +35,7 @@ const Header = () => {
               </div>
             </dl>
           </div>
-          <div className="rounded-2xl bg-gray-50 p-10">
+          <div className="rounded-2xl bg-gray-100 p-10">
             <h3 className="text-base font-semibold leading-7 text-gray-900">
               Essen
             </h3>

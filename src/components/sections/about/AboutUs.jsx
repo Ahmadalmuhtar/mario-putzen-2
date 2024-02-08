@@ -3,11 +3,13 @@ import React from "react";
 const AboutUs = () => {
   return (    
 
-<div className="bg-white px-6 pb-10">
+<div className="bg-white px-6 pt-8">
       <div className="mx-auto max-w-5xl text-center grid grid-cols-6 gap-4">
-        <div className="col-span-2 flex items-center">
-        <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Über Uns</h2>
-        </div>
+      <div className="col-span-2 flex items-center">
+  <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+    <span className="underline text-blue-700" style={{ whiteSpace: 'nowrap' }}>Ü</span>ber Uns
+  </h2>
+</div>
         <div className="col-span-4 text-justify">
         <p className="mt-6 text-lg leading-8 text-gray-600">
         Mit einem Team erfahrener Reinigungskräfte und modernster Ausrüstung

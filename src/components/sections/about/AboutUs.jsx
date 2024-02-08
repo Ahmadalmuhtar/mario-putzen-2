@@ -7,12 +7,12 @@ const AboutUs = () => {
       <div className="mx-auto max-w-5xl text-center grid grid-cols-6 gap-4">
       <div className="col-span-2 flex items-center">
   <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-    <span className="underline text-blue-700" style={{ whiteSpace: 'nowrap' }}>Ü</span>ber Uns
+    <span className="border-b-2 border-opacity-55 border-blue-700 whitespace-nowrap">Ü</span>ber Uns
   </h2>
 </div>
         <div className="col-span-4 text-justify">
         <p className="mt-6 text-lg leading-8 text-gray-600">
-        Mit einem Team erfahrener Reinigungskräfte und modernster Ausrüstung
+        <span className="border-b-2 border-opacity-55 border-blue-700 whitespace-nowrap">Mit einem T</span>eam erfahrener Reinigungskräfte und modernster Ausrüstung
           kümmern wir uns um Ihre Außen- und Innenflächen. Egal ob Büro-,
           Unterhalts- oder Glasreinigung: Profitieren Sie von unserer
           kostenlosen Erstberatung und holen Sie sich noch heute ein

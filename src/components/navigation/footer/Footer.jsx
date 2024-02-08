@@ -123,9 +123,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-
-      {/* <!--Copyright section--> */}
-      <div className="bg-neutral-200 p-6 text-center dark:bg-neutral-700">
+      <div className="bg-neutral-200 p-6 text-center dark:bg-neutral-700 h-6">
         <span>© 2024 Copyright:</span>
         <a
           className="font-semibold text-neutral-600 dark:text-neutral-400"

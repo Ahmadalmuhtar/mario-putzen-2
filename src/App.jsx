@@ -18,7 +18,6 @@ const App = () => {
       <PhotoGallery />
       <AboutUs />
       <FeatureSection />
-      <QualityService />
       <QuestionsSection />
       <QualityCounter />
       <Footer />

@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import Layout from "../../layout";
 
 const QualityCounter = () => {
   const [quality, setQuality] = useState(0);
@@ -31,23 +32,25 @@ const QualityCounter = () => {
   }, [quality]);
 
   return (
-    <div
-      ref={qualityRef}
-      className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-6 pb-6 bg-center bg-blue-300 pl-4 pr-4 pb-12"
-    >
-      <div className="opacity-80">
-        <QualityItem title="QUALITÄT" value={quality} />
+    <Layout>
+      <div
+        ref={qualityRef}
+        className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-6 pb-6 bg-center bg-blue-300 pl-4 pr-4 border-b-4  border-gray-100"
+      >
+        <div className="opacity-80">
+          <QualityItem title="QUALITÄT" value={quality} />
+        </div>
+        <div className="opacity-80">
+          <QualityItem title="PÜNKTLICHKEIT" value={quality} />
+        </div>
+        <div className="opacity-80">
+          <QualityItem title="ZUFRIEDENHEIT" value={quality} />
+        </div>
+        <div className="opacity-80">
+          <QualityItem title="SAUBERKEIT" value={quality} />
+        </div>
       </div>
-      <div className="opacity-80">
-        <QualityItem title="PÜNKTLICHKEIT" value={quality} />
-      </div>
-      <div className="opacity-80">
-        <QualityItem title="ZUFRIEDENHEIT" value={quality} />
-      </div>
-      <div className="opacity-80">
-        <QualityItem title="SAUBERKEIT" value={quality} />
-      </div>
-    </div>
+    </Layout>
   );
 };
 

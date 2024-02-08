@@ -1,9 +1,10 @@
 import React from "react";
 import BildImage from "../../../assets/images/Logo.png";
+import Layout from "../../layout";
 
 const Header = () => {
   return (
-    <div>
+    <Layout>
       <div className="max-w-5xl mx-auto flex justify-between items-center">
         <div>
           <img src={BildImage} alt="Mario Putzen Image" />
@@ -63,7 +64,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Layout>
   );
 };
 

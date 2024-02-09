@@ -1,9 +1,3 @@
-import {
-  ArrowPathIcon,
-  TrashIcon,
-  FingerPrintIcon,
-  LockClosedIcon,
-} from "@heroicons/react/24/outline";
 import img from "../../../assets/images/clean.svg";
 import img1 from "../../../assets/images/clean-1.svg";
 import img2 from "../../../assets/images/cleaner.svg";
@@ -51,19 +45,9 @@ export default function FeatureSection() {
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-7xl">
             <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 text-left lg:gap-y-16">
               {features.map((feature, index) => (
-                // <div key={feature.name} className="relative pl-16">
-                //   <dt className="text-base font-semibold leading-7 text-gray-900">
-                //     <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg">
-                //       <img src={feature.image} />
-                //     </div>
-                //     {feature.name}
-                //   </dt>
-                //   <dd className="mt-2 text-base leading-7 text-gray-600">
-                //     {feature.description}
-                //   </dd>
-                // </div>
                 <div
                   className={`ring-2 rounded-2xl p-10 transition-all duration-300 ease-in-out ring-blue-500`}
+                  key={index}
                 >
                   <div className="grid grid-cols-2">
                     <div className="flex items-center">

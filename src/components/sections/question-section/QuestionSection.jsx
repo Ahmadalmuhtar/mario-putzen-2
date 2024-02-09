@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useRef } from "react";
 import Layout from "../../layout";
 
 const QuestionSection = () => {
+  const footerRef = useRef(null);
+
+  const scrollFooter = () => {
+    footerRef.current.scrollIntoView({behavior: 'smooth'})
+  }
+
   return (
     <Layout>
       <section className="bg-gray-200 py-12 pt-8 text-center">
@@ -13,12 +19,13 @@ const QuestionSection = () => {
             Sie erreichen uns per E-Mail oder unter einer unserer Nummern!
           </p>
           <div className="flex justify-center">
-            <button className="bg-blue-700 hover:bg-blue-800 transition-all duration-200 ease-in-out text-white font-bold py-2 px-4 rounded">
+            <button className="bg-blue-700 hover:bg-blue-800 transition-all duration-200 ease-in-out text-white font-bold py-2 px-4 rounded" onClick={scrollFooter}>
               Contact Us
             </button>
           </div>
         </div>
       </section>
+      <div ref={footerRef}></div>
     </Layout>
   );
 };

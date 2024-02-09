@@ -4,7 +4,7 @@ import img from "../../../assets/images/Logo.png";
 export default function Footer() {
   return (
     <>
-      <footer className="bg-blue-500 gap-12 text-center text-white dark:bg-neutral-600 dark:text-neutral-200 lg:text-left pt-6">
+      <footer className="bg-blue-500 gap-12 text-center text-white dark:bg-neutral-600 dark:text-neutral-200 lg:text-left pt-6" id="footer">
         <div className="mx-6 py-10 text-center md:text-left">
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 justify-items-center">
             <div className="">
@@ -145,10 +145,8 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="bg-neutral-200 p-6 text-center dark:bg-neutral-700 h-6">
-          <span className="text-neutral-600">
+        <div className="bg-neutral-200 p-6 dark:bg-neutral-700 h-6 flex items-center justify-center text-neutral-600 text-center">
             © 2024 Copyright: Mario Putzen
-          </span>
         </div>
       </footer>
     </>

@@ -44,7 +44,7 @@ export default function FeatureSection() {
                                     key={index}
                                 >
                                     <div className="grid grid-cols-2">
-                                        <div className="flex items-center">
+                                        <div className="flex flex-col justify-center">
                                             <div>
                                                 <h3 className="text-base font-semibold leading-7 text-gray-900">
                                                     {feature.name}
@@ -60,10 +60,11 @@ export default function FeatureSection() {
                                                 </dl>
                                             </div>
                                         </div>
-                                        <div className="flex justify-end">
+                                        <div className="flex justify-end items-center">
                                             <img
-                                                className="h-48 w-48"
+                                                className="max-w-full h-auto"
                                                 src={feature.image}
+                                                alt={feature.name}
                                             />
                                         </div>
                                     </div>

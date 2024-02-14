@@ -8,8 +8,8 @@ import Layout from "../../layout";
 export default function PhotoGallery() {
   return (
     <Layout>
-      <div className="h-[600px] max-w-7xl mx-auto">
-        <Carousel>
+      <div className="max-w-7xl mx-auto">
+        <Carousel className="carousel sm:h-72 md:h-96 lg:h-[600px]">
           <img className="h-full w-full object-cover object-center" src={img4} alt="marioputzen" />
           <img className="h-full w-full object-cover object-center" src={img1} alt="marioputzen" />
           <img className="h-full w-full object-cover object-center" src={img2} alt="marioputzen" />

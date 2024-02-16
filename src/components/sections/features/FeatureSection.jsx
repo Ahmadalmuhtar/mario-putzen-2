@@ -43,7 +43,7 @@ export default function FeatureSection() {
                                     className={`ring-2 rounded-2xl p-10 transition-all duration-300 ease-in-out ring-gray-100`}
                                     key={index}
                                 >
-                                    <div className="grid grid-cols-2">
+                                    <div className="grid grid-co;s-1 md:grid-cols-2">
                                         <div className="flex flex-col justify-center">
                                             <div>
                                                 <h3 className="text-md font-semibold leading-7 text-blue-700">
@@ -60,9 +60,9 @@ export default function FeatureSection() {
                                                 </dl>
                                             </div>
                                         </div>
-                                        <div className="flex justify-end items-center">
+                                        <div className="flex mt-2 justify-center md:mt-0">
                                             <img
-                                                className="max-w-full h-auto"
+                                                className="w-auto h-32"
                                                 src={feature.image}
                                                 alt={feature.name}
                                             />

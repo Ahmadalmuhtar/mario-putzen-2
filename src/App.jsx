@@ -8,6 +8,7 @@ import FeatureSection from './components/sections/features/FeatureSection'
 import QuestionsSection from './components/sections/question-section/QuestionSection'
 import QualityCounter from './components/sections/quality-counter/QualityCounter'
 import Footer from './components/navigation/footer/Footer'
+import { Helmet } from 'react-helmet'
 
 const App = () => {
     return (

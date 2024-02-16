@@ -40,13 +40,13 @@ export default function FeatureSection() {
                         <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 text-left lg:gap-y-16">
                             {features.map((feature, index) => (
                                 <div
-                                    className={`ring-2 rounded-2xl p-10 transition-all duration-300 ease-in-out ring-blue-500`}
+                                    className={`ring-2 rounded-2xl p-10 transition-all duration-300 ease-in-out ring-gray-100`}
                                     key={index}
                                 >
                                     <div className="grid grid-cols-2">
                                         <div className="flex flex-col justify-center">
                                             <div>
-                                                <h3 className="text-base font-semibold leading-7 text-gray-900">
+                                                <h3 className="text-md font-semibold leading-7 text-blue-700">
                                                     {feature.name}
                                                 </h3>
                                                 <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">

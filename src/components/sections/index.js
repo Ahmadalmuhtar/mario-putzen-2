@@ -1,0 +1,5 @@
+export { default as AboutSection } from './about'
+export { default as FeaturesSection } from './features'
+export { default as QualityCounterSection } from './quality-counter'
+export { default as QualityServiceSection } from './quality-service'
+export { default as QuestionSection } from './question-section'

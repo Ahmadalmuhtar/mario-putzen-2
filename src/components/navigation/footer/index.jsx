@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <>
             <footer
-                id="#footer"
+                id="footer"
                 className="bg-blue-500 gap-12 text-center text-white dark:bg-neutral-600 dark:text-neutral-200 lg:text-left pt-6"
             >
                 <div className="mx-6 py-10 text-center md:text-left">

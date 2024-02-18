@@ -59,7 +59,7 @@ export default function Footer() {
                             <p className="mb-4 flex items-center justify-center md:justify-start hover:text-gray-200 hover:underline">
                                 <a
                                     className="flex items-center"
-                                    href="mailto:marioputzen25@gmail.com?subject=Anfrage%20zur%20Dienstleistung&body=Guten%20Tag,%0A%0AIch%20interessiere%20mich%20für%20Ihre%20Dienstleistungen%20und%20möchte%20mehr%20darüber%20erfahren.%0A%0AMit%20freundlichen%20Grüßen,%0AVorname%20Nachname"
+                                    href="mailto:info@marioputzen.com?subject=Anfrage%20zur%20Dienstleistung&body=Guten%20Tag,%0A%0AIch%20interessiere%20mich%20für%20Ihre%20Dienstleistungen%20und%20möchte%20mehr%20darüber%20erfahren.%0A%0AMit%20freundlichen%20Grüßen,%0AVorname%20Nachname"
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +70,7 @@ export default function Footer() {
                                         <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
                                         <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
                                     </svg>
-                                    marioputzen25@gmail.com
+                                    info@marioputzen.com
                                 </a>
                             </p>
                             <a
@@ -113,7 +113,7 @@ export default function Footer() {
                                 <span>Frohnhauserstraße 308, 45144 Essen</span>
                             </a>
                             <a
-                                href="mailto:marioputzen30@gmail.com?subject=Anfrage%20zur%20Dienstleistung&body=Guten%20Tag,%0A%0AIch%20interessiere%20mich%20für%20Ihre%20Dienstleistungen%20und%20möchte%20mehr%20darüber%20erfahren.%0A%0AMit%20freundlichen%20Grüßen,%0AVorname%20Nachname"
+                                href="mailto:info@marioputzen.com?subject=Anfrage%20zur%20Dienstleistung&body=Guten%20Tag,%0A%0AIch%20interessiere%20mich%20für%20Ihre%20Dienstleistungen%20und%20möchte%20mehr%20darüber%20erfahren.%0A%0AMit%20freundlichen%20Grüßen,%0AVorname%20Nachname"
                                 className="mb-4 flex items-center justify-center md:justify-start hover:text-gray-200 hover:underline"
                             >
                                 <svg
@@ -125,7 +125,7 @@ export default function Footer() {
                                     <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
                                     <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
                                 </svg>
-                                <span>marioputzen30@gmail.com</span>
+                                <span>info@marioputzen.com</span>
                             </a>
 
                             <a

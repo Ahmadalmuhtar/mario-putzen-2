@@ -20,9 +20,9 @@ const Header = () => {
                                 <dd>
                                     <a
                                         className="font-semibold text-gray-700 hover:text-red-700"
-                                        href="mailto:Marioputzen25@gmail.com"
+                                        href="mailto:info@marioputzen.com"
                                     >
-                                        Marioputzen25@gmail.com
+                                        info@marioputzen.com
                                     </a>
                                 </dd>
                             </div>
@@ -46,9 +46,9 @@ const Header = () => {
                                 <dd>
                                     <a
                                         className="font-semibold text-gray-700 hover:text-red-700"
-                                        href="mailto:Marioputzen30@gmail.com"
+                                        href="mailto:info@marioputzen.com"
                                     >
-                                        Marioputzen30@gmail.com
+                                        info@marioputzen.com
                                     </a>
                                 </dd>
                             </div>

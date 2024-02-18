@@ -15,7 +15,7 @@ const WelcomeBanner = () => {
                 </div>
                 <div className="flex justify-center w-full lg:w-auto">
                     <a
-                        href="https://www.tiktok.com/@marioputzen?lang=de-DE"
+                        href="https://www.tiktok.com/@mario.putzen"
                         target="_blank"
                         rel="noreferrer"
                         className="hover:scale-105 transform-all duration-300 ease-in-out m-2"

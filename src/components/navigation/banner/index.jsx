@@ -26,7 +26,7 @@ const WelcomeBanner = () => {
                         />
                     </a>
                     <a
-                        href="https://www.instagram.com/mario_putzen/"
+                        href="https://www.instagram.com/Mario.putzen"
                         target="_blank"
                         rel="noreferrer"
                         className="hover:scale-105 transform-all duration-300 ease-in-out m-2"

@@ -46,9 +46,9 @@ const Header = () => {
                                 <dd>
                                     <a
                                         className="font-semibold text-gray-700 hover:text-red-700"
-                                        href="mailto:info@marioputzen.com"
+                                        href="mailto:essen@marioputzen.com"
                                     >
-                                        info@marioputzen.com
+                                        essen@marioputzen.com
                                     </a>
                                 </dd>
                             </div>

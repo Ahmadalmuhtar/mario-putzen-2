@@ -129,7 +129,7 @@ export default function Footer() {
                             </a>
 
                             <a
-                                href="tel:+491726228598"
+                                href="tel:+4917641929503"
                                 className="mb-4 flex items-center justify-center md:justify-start hover:text-gray-200 hover:underline"
                             >
                                 <svg
@@ -144,7 +144,7 @@ export default function Footer() {
                                         clipRule="evenodd"
                                     />
                                 </svg>
-                                <span>+49 1726 228598</span>
+                                <span>+49 1764 1929503</span>
                             </a>
                         </div>
                     </div>

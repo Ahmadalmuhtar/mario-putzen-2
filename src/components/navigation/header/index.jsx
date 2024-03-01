@@ -54,7 +54,7 @@ const Header = () => {
                             </div>
                             <div className="mt-1">
                                 <dt className="sr-only">Phone number</dt>
-                                <dd>+49 1726 228598</dd>
+                                <dd>+49 1764 1929503</dd>
                             </div>
                             <div className="mt-1">
                                 <dt className="sr-only">Address</dt>

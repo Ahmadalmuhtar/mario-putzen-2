@@ -5,9 +5,13 @@ import Layout from '../../layout'
 const Header = () => {
     return (
         <Layout>
-            <div className="max-w-5xl mx-auto flex flex-col items-center justify-center sm:flex-row sm:justify-between">
-                <div className="mb-6 sm:mb-0 max-sm:max-w-48">
-                    {/* <img src={BildImage} alt="Mario Putzen Image" /> */}
+            <div className="max-w-5xl mx-auto items-center justify-center sm:flex-row sm:justify-between">
+                <div className="my-6 flex justify-center">
+                    <img
+                        className="w-auto h-[40vh]"
+                        src={BildImage}
+                        alt="Mario Putzen Image"
+                    />
                 </div>
                 <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">
                     <div className="rounded-2xl bg-gray-100 p-6 sm:p-10">

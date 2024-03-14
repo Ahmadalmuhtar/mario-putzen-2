@@ -17,11 +17,11 @@ export default function Footer() {
                                     target="_blank"
                                     className="flex items-center"
                                 >
-                                    <img
+                                    {/* <img
                                         src={img}
                                         className="h-24 pr-4"
                                         alt="Mario Putzen Logo"
-                                    />
+                                    /> */}
                                     <span className="hover:text-gray-200 hover:underline">
                                         Mario Putzen
                                     </span>

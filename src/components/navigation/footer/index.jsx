@@ -90,7 +90,7 @@ export default function Footer() {
                                         clipRule="evenodd"
                                     />
                                 </svg>
-                                <span>+49 1520 2080771</span>
+                                <span>+49 171 3471418</span>
                             </a>
                         </div>
                         <div>

@@ -32,7 +32,7 @@ const Header = () => {
                             </div>
                             <div className="mt-1">
                                 <dt className="sr-only">Phone number</dt>
-                                <dd>+49 1520 2080771</dd>
+                                <dd>+49 171 3471418</dd>
                             </div>
                             <div className="mt-1">
                                 <dt className="sr-only">Address</dt>

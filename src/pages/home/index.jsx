@@ -8,6 +8,8 @@ import {
     QuestionSection,
 } from '../../components/sections'
 import ReactGA from 'react-ga'
+import CookieBanner from '../../components/sections/cookieBanner'
+import posthog from 'posthog-js'
 
 const HomePage = () => {
     useEffect(() => {
@@ -17,6 +19,10 @@ const HomePage = () => {
 
     return (
         <>
+            {posthog.has_opted_out_capturing() ||
+            posthog.has_opted_in_capturing() ? null : (
+                <CookieBanner />
+            )}
             <WelcomeBanner />
             <Header />
             <PhotoGallery />

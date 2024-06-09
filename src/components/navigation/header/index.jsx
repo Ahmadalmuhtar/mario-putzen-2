@@ -36,10 +36,7 @@ const Header = () => {
                             </div>
                             <div className="mt-1">
                                 <dt className="sr-only">Address</dt>
-                                <dd>
-                                    August-Borsig-Straße 9, 78467 Konstanz im
-                                    Erdgeschoss
-                                </dd>
+                                <dd>August-Borsig-Straße 9, 78467 Konstanz</dd>
                             </div>
                         </dl>
                     </div>

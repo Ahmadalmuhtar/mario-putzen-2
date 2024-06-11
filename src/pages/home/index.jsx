@@ -10,6 +10,7 @@ import {
 import ReactGA from 'react-ga'
 import CookieBanner from '../../components/sections/cookieBanner'
 import posthog from 'posthog-js'
+import WhatsAppButton from '../../components/ui/whatsapp/WhatsAppButton'
 
 const HomePage = () => {
     useEffect(() => {
@@ -31,6 +32,7 @@ const HomePage = () => {
             <QualityCounterSection />
             <QuestionSection />
             <Footer />
+            <WhatsAppButton />
         </>
     )
 }

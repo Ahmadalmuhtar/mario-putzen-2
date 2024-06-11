@@ -1,19 +1,40 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import BildImage from '../../../assets/images/Logo.png'
 import {
     faTiktok,
     faInstagram,
     faFacebook,
 } from '@fortawesome/free-brands-svg-icons'
+import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 
 const WelcomeBanner = () => {
     return (
-        <div className="border-b border-gray-100 text-gray-800 py-3 bg-gray-100 shadow-sm sticky top-0 z-10">
+        <div className="text-gray-800 py-3">
             <div className="max-w-5xl mx-auto items-center flex justify-between flex-wrap lg:flex-no-wrap">
-                <div className="text-sm font-semibold w-full lg:w-auto lg:mb-0 mb-2 lg:text-left text-center">
-                    <p>Willkommen bei MARIO PUTZEN Cleaning Services Company</p>
+                <div className="flex space-x-4 text-sm font-semibold w-full lg:w-auto lg:mb-0 mb-2 lg:text-left text-center items-center">
+                    <div className="space-x-3 flex justify-center max-w-5xl mx-auto">
+                        <div className="flex space-x-2 items-center">
+                            <EnvelopeIcon className="size-5" />
+                            <a
+                                className="font-semibold text-gray-700 hover:text-red-700 hover:underline"
+                                href="mailto:info@marioputzen.com"
+                            >
+                                info@marioputzen.com
+                            </a>
+                        </div>
+                        <div className="flex space-x-2 items-center">
+                            <PhoneIcon className="size-5" />
+                            <a
+                                href="tel:+491713471418"
+                                className="font-semibold text-gray-700 hover:text-red-700 hover:underline"
+                            >
+                                +49 171 3471418
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div className="flex justify-center w-full lg:w-auto">
+                <div className="flex justify-center w-full lg:w-auto items-center">
                     <a
                         href="https://www.tiktok.com/@marioputzen"
                         target="_blank"

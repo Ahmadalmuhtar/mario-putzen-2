@@ -8,7 +8,7 @@ const Header = () => {
             <div className="max-w-5xl mx-auto items-center justify-center sm:flex-row sm:justify-between">
                 <div className="my-6 flex justify-center">
                     <img
-                        className="w-auto h-[40vh]"
+                        className="w-auto h-[30vh]"
                         src={BildImage}
                         alt="Mario Putzen Image"
                     />

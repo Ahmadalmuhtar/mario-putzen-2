@@ -150,7 +150,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="bg-neutral-200 p-6 dark:bg-neutral-700 h-6 flex items-center justify-center text-neutral-600 text-center">
-                    © 2024 Copyright: Mario Putzen
+                    © {new Date().getFullYear()} Copyright: Mario Putzen
                 </div>
             </footer>
         </>

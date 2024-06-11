@@ -4,8 +4,7 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 
 const WhatsAppButton = () => {
     const phoneNumber = '+491713471418'
-    const message =
-        'Unsere Arbeitszeiten: Mo-Fr => 09:00 - 18:00 Uhr, Sa => 09:00 - 15:00 Uhr'
+    const message = 'Ich interessiere mich für ein Angebot'
 
     const handleClick = () => {
         const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(

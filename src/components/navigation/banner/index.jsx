@@ -1,6 +1,5 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import BildImage from '../../../assets/images/Logo.png'
 import {
     faTiktok,
     faInstagram,
